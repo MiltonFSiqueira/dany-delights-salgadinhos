@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2? family= DynaPuff & family= Source+Sans+Pro:wght@200 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@200 & display=swap');
+
+@font-face {
+  font-family: 'HB';
+  src: url('HB\ Sketch\ Demo.otf') format('opentype'), url('HB\ Sketch\ Demo.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'HB';
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(imagem/coxinha.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  height: 700px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.redes-sociais {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-topo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: fixed;
+}
+
+.delivery {
+  border-radius: 150px;
+  height: 100px;
+  width: 100px;
+  margin-top: 60px;
+}
+
+nav {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-right: 15px;
+  margin-top: 15px;
+  flex-direction: column-reverse;
+  
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: chartreuse;
+  text-shadow: 2px 4px 2px black;
+  width: 100%;
+}
+
+main::first-letter {
+  font-size: 100px;
+  color: chartreuse;
+  text-shadow: 5px 5px 2px black;
+}
+
+.apresentacao {
+  background-size: cover;
+  color: #100d0d;
+  text-align: center;
+  padding: 50px 0;
+  background-color: darkgoldenrod;
+  height: 800px;
+  width: 100%;
+  border: 2px solid #080707;
+  opacity: 80%;
+}
+
+.apresentacao h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  flex-shrink: 2;
+  font-weight: bolder;
+}
+
+.apresentacao h2 {
+  margin-top: 70px;
+  font-weight: bolder;
+}
+
+.apresentacao p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+
+button {
+  display: inline-block;
+  background-color: #080707;
+  border-radius: 50px;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.apresentacao button a:hover {
+  color: black;
+  width: 100px;
+}
+
+.apresentacao button:hover {
+  width: 100px;
+  height: 100px;
+  background: url("imagem/whatsapp.png");
+  background-size: contain;
+}
+
+
+button a {
+  color: chartreuse;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: chocolate;
+  width: 100%;
+  height: 1100px;
+  border: 2px solid #080707;
+  opacity: 80%;
+}
+
+.Pagamento {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: chocolate;
+  width: 100%;
+  height: 330px;
+  border: 2px solid #080707;
+  opacity: 80%;
+}
+
+.img-produto {
+  height: 500px;
+  text-align: center;
+  width: 200px;
+  margin: 0 40px;
+}
+
+.img-produto img {
+  width: 200px;
+  border-radius: 10px;
+  height: 250px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 2px black;
+}
+
+.img-produto:hover{
+  background-image: url(imagem/coxinha.jpg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px black;
+  margin-top: 20px;
+}
+
+.titulo-produto {
+  margin: 100px 0;
+  width: 100%;
+  background-color: chocolate;
+  border: 2px solid #080707;
+  padding: 25px 0;
+  opacity: 80%;
+  text-align: center;
+}
+
+.titulo-produto h2 {
+  font-size: 36px;
+  margin: 70px 0;
+  font-weight: bolder;
+}
+
+.produtos h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.produtos p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+
+.slider {
+  margin: 0 auto;
+  width: 600px;
+  height: 870px;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.slides {
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img {
+  width: 600px;
+
+}
+
+.manual-navigation {
+  position: absolute;
+  width: 800px;
+  margin-top: 380px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #817a31;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-right: 200px;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 70px;
+}
+
+.manual-btn:hover {
+  background-color: #f50808;
+}
+
+#radio1:checked~.first {
+  margin-left: 0;
+}
+
+#radio2:checked~.first {
+  margin-left: -25%;
+}
+
+#radio3:checked~.first {
+  margin-left: -50%;
+}
+
+#radio4:checked~.first {
+  margin-left: -75%;
+}
+
+
+
+.navigation-auto {
+  position: absolute;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+  background-color: #fff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+  background-color: #fff;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+  background-color: #fff;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+  background-color: #fff;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  border: 2px solid #080707;
+  margin-top: 150px;
+  padding-top: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  
+nav{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav a{
+  flex-direction: row;
+  width: 70%;
+}
+
+header{
+  height: 600px;
+  height: 60vh;
+}
+}
+
+
