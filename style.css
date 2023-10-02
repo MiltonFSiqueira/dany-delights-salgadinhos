@@ -603,6 +603,11 @@ html {
 
   @media (max-width: 414px){
 
+    .logo h3{
+    font-size: 3rem;
+    }
+
+
     .conteudo-principal h1 {
       width: 300px;
       font-size: 3rem;
