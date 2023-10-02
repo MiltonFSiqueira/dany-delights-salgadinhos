@@ -645,14 +645,11 @@ html {
       width: 100%;
     }
 
-    .card{
-      
-    }
 
     .cards{
       grid-template-columns: repeat(3, 1fr);
       max-width: 310px;
-      grid-gap: 40px;
+      grid-gap: 10px;
       margin: 20 auto;
           }     
   }
