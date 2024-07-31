@@ -702,6 +702,51 @@ html {
       
     
     }
+
+
+    #whatsapp-icon {
+      position: fixed;
+      width: 10vmin;
+      height: 10vmin;
+      min-width: 40px;
+      min-height: 40px;
+      max-width: 80px;
+      max-height: 80px;
+      background-color: #25D366;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      animation: move 15s infinite linear;
+      z-index: 9999;
+  }
+  
+  #whatsapp-icon::before {
+      content: "\f232";
+      font-family: "Font Awesome 5 Brands";
+      font-size: 6vmin;
+      min-font-size: 24px;
+      max-font-size: 48px;
+      color: white;
+  }
+  
+  @keyframes move {
+      0%, 100% { top: 5%; left: 5%; }
+      25% { top: 5%; left: 90%; }
+      50% { top: 90%; left: 90%; }
+      75% { top: 90%; left: 5%; }
+  }
+
+  @media (max-width: 768px) {
+      #whatsapp-icon {
+          width: 15vmin;
+          height: 15vmin;
+      }
+      #whatsapp-icon::before {
+          font-size: 9vmin;
+      }
+  }
       
     
   
