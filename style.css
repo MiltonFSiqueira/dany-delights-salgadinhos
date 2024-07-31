@@ -58,7 +58,7 @@ html {
 
 .content .list-menu li a {
   padding: 3rem 1rem 2rem 1rem;
-  color: blue;
+  color: white;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -185,7 +185,7 @@ html {
   /*Comentários do produto*/
   .comentario{
     background-color:#1f1e1f;
-    height: 700px;
+    height: 1000px;
     width: 100%;
   }
 
