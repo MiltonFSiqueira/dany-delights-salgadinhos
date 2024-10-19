@@ -568,6 +568,10 @@ footer {
     flex-wrap: wrap;
   }
 
+  .card{
+    flex-grow: 1;
+  }
+
   .contatos-secao {
     width: 300px;
   }
