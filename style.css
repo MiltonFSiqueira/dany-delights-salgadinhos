@@ -267,6 +267,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-grow: 1;
 }
 
 .itens-cardapio .info {
