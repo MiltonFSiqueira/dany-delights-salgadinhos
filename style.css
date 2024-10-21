@@ -93,6 +93,17 @@ html {
   justify-content: center;
 }
 
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .first-section h1 {
   color: #ffc506;
   font-size: 6rem;
