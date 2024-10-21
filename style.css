@@ -73,7 +73,7 @@ html {
 
 /*first-section*/
 
-.first-section {
+.first-section video {
   height: 100vh;
   background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(imagem/coxinha.jpg);
   background-position: center center;
@@ -86,18 +86,7 @@ html {
   align-items: center;
 }
 
-video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
- .conteudo-principal {
+.conteudo-principal {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -580,7 +569,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .card{
+  .card {
     flex-grow: 1;
   }
 
@@ -744,7 +733,7 @@ footer {
   content: "\f232";
   font-family: "Font Awesome 5 Brands";
   font-size: 6vmin;
-  
+
   color: white;
 }
 
