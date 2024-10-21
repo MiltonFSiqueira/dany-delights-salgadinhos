@@ -86,7 +86,28 @@ html {
   align-items: center;
 }
 
-.first-section .conteudo-principal {
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-section video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ .conteudo-principal {
   display: flex;
   flex-direction: column;
   align-items: center;
